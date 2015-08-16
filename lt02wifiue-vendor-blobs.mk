@@ -115,11 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecjpegdec.so:system/lib/libcodecjpegdec.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecjpegenc.so:system/lib/libcodecjpegenc.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libgpucsc.so:system/lib/libgpucsc.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libmsgqueue.so:system/lib/libmsgqueue.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libphycontmem.so:system/lib/libphycontmem.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/lt02wifiue/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/lt02wifiue/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
@@ -159,36 +154,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecpngdec.so:system/lib/libcodecpngdec.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecwmadec.so:system/lib/libcodecwmadec.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecwmvdec.so:system/lib/libcodecwmvdec.so \
+    vendor/samsung/lt02wifiue/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libmiscgen.so:system/lib/libmiscgen.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libmvmem.so:system/lib/libmvmem.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libMrvlOmx.so:system/lib/libMrvlOmx.so \
     vendor/samsung/lt02wifiue/proprietary/lib/librealmediaextractor.so:system/lib/librealmediaextractor.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libstagefright_mrvl_extractor.so:system/lib/libstagefright_mrvl_extractor.so \
-    vendor/samsung/lt02wifiue/proprietary/bin/phservice:system/bin/phservice \
-    vendor/samsung/lt02wifiue/proprietary/etc/foreground_task.xml:system/etc/foreground_task.xml \
-    vendor/samsung/lt02wifiue/proprietary/etc/powerhal.conf:system/etc/powerhal.conf \
     vendor/samsung/lt02wifiue/proprietary/etc/powerpolicy.pxa988.xml:system/etc/powerpolicy.pxa988.xml \
     vendor/samsung/lt02wifiue/proprietary/etc/powerpolicy.xml:system/etc/powerpolicy.xml \
-    vendor/samsung/lt02wifiue/proprietary/lib/libsysfs_access.so:system/lib/libsysfs_access.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/hw/power.mrvl.so:system/lib/hw/power.mrvl.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_app_launch.so:system/lib/PowerHint/hint_app_launch.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_boot.so:system/lib/PowerHint/hint_boot.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_browser.so:system/lib/PowerHint/hint_browser.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_camera.so:system/lib/PowerHint/hint_camera.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_foreground_task.so:system/lib/PowerHint/hint_foreground_task.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_input.so:system/lib/PowerHint/hint_input.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_media.so:system/lib/PowerHint/hint_media.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_phone.so:system/lib/PowerHint/hint_phone.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_rotation.so:system/lib/PowerHint/hint_rotation.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_screen.so:system/lib/PowerHint/hint_screen.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_ssg_booster.so:system/lib/PowerHint/hint_ssg_booster.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/hint_thermal.so:system/lib/PowerHint/hint_thermal.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/operator_cpu.so:system/lib/PowerHint/operator_cpu.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/operator_ddr.so:system/lib/PowerHint/operator_ddr.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/operator_gpu.so:system/lib/PowerHint/operator_gpu.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/operator_shcmd.so:system/lib/PowerHint/operator_shcmd.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/PowerHint/operator_vpu.so:system/lib/PowerHint/operator_vpu.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libphs_input.so:system/lib/libphs_input.so \
+    vendor/samsung/lt02wifiue/proprietary/lib/libmsgqueue.so:system/lib/libmsgqueue.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libphs_log.so:system/lib/libphs_log.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libpowerhintservice.so:system/lib/libpowerhintservice.so \
     vendor/samsung/lt02wifiue/proprietary/bin/atcmdsrv:system/bin/atcmdsrv \
@@ -244,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/lt02wifiue/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/lt02wifiue/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libsimal.so:system/lib/libsimal.so \
     vendor/samsung/lt02wifiue/proprietary/bin/sensord:system/bin/sensord \
@@ -253,8 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
     vendor/samsung/lt02wifiue/proprietary/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libceu.so:system/lib/libceu.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libGAL.so:system/lib/libGAL.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libgcu.so:system/lib/libgcu.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libgputex.so:system/lib/libgputex.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libveu.so:system/lib/libveu.so
+    vendor/samsung/lt02wifiue/proprietary/lib/libgputex.so:system/lib/libgputex.so
