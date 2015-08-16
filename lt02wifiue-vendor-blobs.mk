@@ -191,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libphs_input.so:system/lib/libphs_input.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libphs_log.so:system/lib/libphs_log.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libpowerhintservice.so:system/lib/libpowerhintservice.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/lt02wifiue/proprietary/bin/atcmdsrv:system/bin/atcmdsrv \
     vendor/samsung/lt02wifiue/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/lt02wifiue/proprietary/bin/backup_log.sh:system/bin/backup_log.sh \
