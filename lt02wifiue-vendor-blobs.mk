@@ -115,9 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecjpegdec.so:system/lib/libcodecjpegdec.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libcodecjpegenc.so:system/lib/libcodecjpegenc.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libgpucsc.so:system/lib/libgpucsc.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/lt02wifiue/proprietary/vendor/lib/hw/lights.mrvl.so:system/vendor/lib/hw/lights.mrvl.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libwvm.so:system/lib/libwvm.so \
@@ -222,12 +219,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifiue/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/lt02wifiue/proprietary/lib/libsimal.so:system/lib/libsimal.so \
     vendor/samsung/lt02wifiue/proprietary/bin/sensord:system/bin/sensord \
-    vendor/samsung/lt02wifiue/proprietary/lib/hw/sensors.mrvl.so:system/lib/hw/sensors.mrvl.so \
-    vendor/samsung/lt02wifiue/proprietary/etc/gfx.cfg:system/etc/gfx.cfg \
-    vendor/samsung/lt02wifiue/proprietary/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libGAL.so:system/lib/libGAL.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libgcu.so:system/lib/libgcu.so \
-    vendor/samsung/lt02wifiue/proprietary/lib/libgputex.so:system/lib/libgputex.so
+    vendor/samsung/lt02wifiue/proprietary/lib/hw/sensors.mrvl.so:system/lib/hw/sensors.mrvl.so
